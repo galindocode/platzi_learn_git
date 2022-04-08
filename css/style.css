@@ -38,6 +38,17 @@ p {
     padding-top: 1rem;
     box-shadow: #3f3f3f 0px 0px 5px;
 }
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(210, 252, 252);
+}
 
 .header h1 {
     display: block;
