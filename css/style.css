@@ -10,6 +10,22 @@ body {
 
 h1 {
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+}
+
+.flex {
+    display: flex;
+    justify-content: stretch;
+    vertical-align: middle;
 }
 
 .header {
@@ -20,6 +36,7 @@ h1 {
     margin: 0px;
     height: 4rem;
     padding-top: 1rem;
+    box-shadow: #3f3f3f 0px 0px 5px;
 }
 
 .header h1 {
@@ -46,6 +63,8 @@ h1 {
 }
 
 .container {
+    border-radius: 10px;
+    box-shadow: #3f3f3f 0px 0px 5px;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
